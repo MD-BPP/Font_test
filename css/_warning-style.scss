@@ -1,0 +1,33 @@
+.warning-message {
+    background: #9b9b9b;
+    position: relative;
+    
+    
+    p {
+        line-height: 1.5;
+        padding: 0 45px;
+        margin: 0;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+    
+    .pull-right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        
+        a {
+            font-size: 24px;
+            line-height: 0.9;
+            color: #4a4a4a;
+            
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    
+    .bppicon:before {
+        padding-right: 5px;
+    }
+}
